@@ -68,7 +68,7 @@ form.addEventListener('submit', function(e){
     else
     {
         //fnc_ShowSuccess(emailaddr);
-        if (isValidEmail(emailaddr)===true)
+        if (isValidEmail(emailaddr.value)===true)
         {
             fnc_ShowSuccess(emailaddr);
         }
